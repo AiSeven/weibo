@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80cae7dc-3f31-4d3a-ac8d-5edd352b7704" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +168,7 @@
       <workItem from="1584954813198" duration="1655000" />
       <workItem from="1585010651191" duration="2862000" />
       <workItem from="1585018700170" duration="8014000" />
-      <workItem from="1585271793894" duration="8088000" />
+      <workItem from="1585271793894" duration="8515000" />
     </task>
     <servers />
   </component>
@@ -177,10 +180,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585279039668" />
-    <state x="776" y="442" key="NewPhpFileDialog" timestamp="1585278313578">
+    <state x="776" y="442" key="NewPhpFileDialog" timestamp="1585280286809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585278313578" />
+    <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585280286809" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1584524857885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
