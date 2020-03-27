@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', 'StaticPagesController@home');
-Route::get('/help', 'StaticPagesController@help');
-Route::get('/about', 'StaticPagesController@about');
 /**
 Route::get('/', function () {
     return view('home');
@@ -31,12 +28,20 @@ Route::get('/about', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'StaticPagesController@home')->name('home');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/help', 'StaticPagesController@help')->name('help');
 
 Auth::routes();
+Route::get('/about', 'StaticPagesController@about')->name('about');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Auth::routes();
+Route::get('signup', 'UsersController@create')->name('signup');
+
+Auth::routes();
+Route::resource('users', 'UsersController');
+
+Auth::routes();
+Route::get('/users/{user}', 'UsersController@show')->name('users.show');
+
